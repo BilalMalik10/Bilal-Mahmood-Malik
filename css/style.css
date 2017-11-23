@@ -1,0 +1,173 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+h1{
+	color:#fff;
+}
+#main-content{
+	background-color: #fff;
+	border-radius: 20px;
+}
+#header-nav {
+	background-color: black;
+	border: 0;
+	border-radius: 0;
+}
+#Profile-img {
+	background: url('../images/bilal-lg.jpg') no-repeat;
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	border-radius: 25px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #ffffff;
+	text-align: center;
+}
+#nav-list a:hover{
+	color:#000;
+	background: #fff;	
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+.panel-footer {
+	background-color: black;
+	border: 0;
+}
+.project {
+	background-color: black;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #000;
+	overflow: hidden;
+	border-radius: 5%;
+}
+.project span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	opacity: .7;
+}
+.project:hover {
+	box-shadow: 0 1px 5px 1px #ccc;
+}
+.project:hover span{
+background-color: #fff;
+color: #000;
+height: 10%;
+opacity: .9;
+}
+#HBL-project{
+	background: url(../images/HBL_chatbot-lg.jpg) no-repeat;
+}
+#HBL-project span{
+	color:#000;
+}
+#HBL-project:hover span{
+	background-color: #17A589;
+}
+#social-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#social-list li {
+    display: inline-block;
+	margin-left:10px;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #fff;
+	border-radius:50%;
+	background-color: #fff;
+	
+}
+#facebook-icon:hover{
+	background-color: #3498DB;
+	border: 1px solid blue;
+}
+#linkedin-icon:hover{
+	background-color: #3498DB;
+	border: 1px solid blue;
+}
+#codecamp-icon:hover{
+	background-color: #196F3D;
+	border: 1px solid green;
+}
+/********** Large devices only ***********/
+@media (min-width: 1200px) {
+	
+}
+
+/********** Medium devices only ***********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#Profile-img {
+	background: url('../images/bilal-md.jpg') no-repeat;
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0;
+	border-radius: 25px;}
+	.navbar-brand h1 {
+		font-size: 1.5em;
+	}
+	#HBL-project{
+	background: url(../images/HBL_chatbot-md.jpg) no-repeat;
+}
+}
+/********** Small devices only ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#Profile-img {
+	background: url('../images/bilal-md.jpg') no-repeat;
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0;
+	border-radius: 25px;}
+	.navbar-brand h1 {
+		font-size: 1.5em;
+	}
+	#HBL-project{
+	background: url(../images/HBL_chatbot-sm.jpg) no-repeat;
+}
+}
+/********** Extra small devices only ***********/
+@media (max-width: 767px) {
+	.navnar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#Profile-img {
+	background: url('../images/bilal-sm.jpg') no-repeat;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	margin: 20px 5px 0 10px;
+	border-radius: 5px;}
+}
